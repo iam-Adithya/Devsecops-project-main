@@ -29,7 +29,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/darshanr-acs/Devsecops-project.git
+    git clone https://github.com/iam-Adithya/Devsecops-project-main
     ```
     
 
@@ -196,7 +196,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url:'https://github.com/darshanr-acs/Devsecops-project.git'
+                git branch: 'main', url:'https://github.com/iam-Adithya/Devsecops-project-main'
             }
         }
         stage("Sonarqube Analysis") {
@@ -286,7 +286,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url:'https://github.com/darshanr-acs/Devsecops-project.git'
+                git branch: 'main', url:'https://github.com/iam-Adithya/Devsecops-project-main'
             }
         }
         stage("Sonarqube Analysis "){
